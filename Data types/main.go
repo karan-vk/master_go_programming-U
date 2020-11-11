@@ -1,8 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
 //Struct
 type Person struct {
@@ -16,8 +16,10 @@ func main() {
 	// balances := map[string]float64{
 	// 	"USD": 150.45,
 	// }
-	fmt.Printf("%T \n",me)
+	// fmt.Printf("%T \n",me)
 
 	// Pointer
-	
+	ptr :=&me
+	println(ptr)
+
 }
