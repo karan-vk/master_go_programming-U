@@ -1,10 +1,14 @@
 package main
 
+import (
+	"fmt"
+)
+
 //Struct
 
 func main() {
-	balances :=map[string]float64{
-		"USD":150.45,
+	balances := map[string]float64{
+		"USD": 150.45,
 	}
-	// println(balances)
+	fmt.Printf("%T \n",balances)
 }
